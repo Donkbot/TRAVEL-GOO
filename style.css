@@ -1,0 +1,647 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.usher{
+    /*border: 1px solid darkred;*/
+    height: 100vh;
+    width: 100%;
+    background-image: url(assets/bcg.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+   /*border: 1px solid green;*/
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.logo{
+    /*border: 1px solid yellow;*/
+    height: 60px;
+    /*width: 7%;   */
+}
+.nav{
+   /* border: 1px solid yellow;*/
+    height: 60px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile{
+   /* border: 1px solid yellow;*/
+    height: 60px;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav a{
+    /*border: 1px solid palevioletred;*/
+    height: 40px;
+    width: 21%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    text-decoration: none;
+}
+.profile img{
+   /* border: 1px solid purple;*/
+    height: 36px;
+    width: 36px;
+}
+.usher-content{
+    /*border: 1px solid green;*/
+    width: 40%;
+    height: 320px;
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.usher-head{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+.usher-text{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.usher-cta button{
+    background-color: #00A651;
+    display: block;
+    border-radius: 10px;
+    width: 180px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    color: white;
+    font-size: 18px;
+    border-color: #00A651;
+}
+.sub-service{
+    border: 1px solid red;
+    height: 380px;
+    width: 100%;
+    
+}
+.service h3{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 30px;
+    /*border: 1px solid green;*/
+}
+.menu{
+    /*border: 1px solid yellow;*/
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 800px;
+    display: flex;
+    height: 180px;
+    justify-content: space-around
+   
+}
+.menu-one{
+    /*border: 1px solid blue;*/
+    width: 310px;
+    height: 120px;
+    margin-left: 90px;
+    padding: 30px 30px;
+    border-radius: 15px;
+    background-color: #F9F9F9;
+
+    
+}
+.menu-two{
+    /*border: 1px solid blue;*/
+    width: 310px;
+    height: 140px;
+    padding: 20px 30px;
+    border-radius: 15px;
+    background-color: mintcream
+
+
+}
+.menu-three{
+    /*border: 1px solid blue;*/
+    width: 310px;
+    height: 140px;
+    margin-right: 90px;
+    padding: 20px 30px;
+    border-radius: 15px;
+    background-color: #F9F9F9;
+
+}
+.menu-one h4{
+    margin-top: 30px
+}
+.menu-one p{
+    margin-top: 20px;
+}
+.menu-two h4{
+    margin-top: 20px
+}
+.menu-two p{
+    margin-top: 20px;
+}
+.menu-three h4{
+    margin-top: 20px
+}
+.menu-three p{
+    margin-top: 20px;
+}
+.map-bg{
+    width: 100%;
+    height: 500px;
+    background-image: url(assets/worldmap.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #F9F9F9;
+    border: 1px solid darkorange
+}
+#mu{
+    text-align: center;
+    font-size: 40px;
+    width: 450px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+#me{
+    text-align: center;
+    font-size: 16px;
+    width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+.card-wrap{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px
+}
+.card-one{
+    border: 1px solid red;
+    height: 160px;
+    width: 160px;
+    padding-top: 25px;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+}
+.card-two{
+    border: 1px solid red;
+    height: 160px;
+    width: 160px;
+    padding-top: 25px;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+}
+.card-three{
+    border: 1px solid red;
+    height: 160px;
+    width: 160px;
+    padding-top: 25px;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+}
+.card-four{
+    border: 1px solid red;
+    height: 160px;
+    width: 160px;
+    padding-top: 25px;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+}
+.card-one h3{
+    padding-top: 15px;
+    font-size: 25px
+}
+.card-one p{
+    padding-top: 15px;
+    font-size: 20px;   
+}
+.card-two h3{
+    padding-top: 15px;
+    font-size: 25px
+}
+.card-two p{
+    padding-top: 15px;
+    font-size: 20px;
+}
+.card-three h3{
+    padding-top: 15px;
+    font-size: 25px
+}
+.card-three p{
+    padding-top: 15px;
+    font-size: 20px;
+}
+.card-four h3{
+    padding-top: 15px;
+    font-size: 25px
+}
+.card-four p{
+    padding-top: 15px;
+    font-size: 20px;
+}
+.location{
+    /*border: 1px solid lawngreen;*/
+    background-color: white;
+    width: 100%;
+    height: 600px
+}
+.location h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 38px;
+}
+.loc-wrap{
+    border: 1px solid blue;
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+    margin-top: 20px
+}
+.loc-itself{
+    border: 1px solid red;
+    background-image: url(assets/worldmap-two.png);
+    width: 550px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-right: 430px
+    
+    
+}
+.loc-des{
+    border: 1px solid seagreen;
+    height: 500x;
+    width: 500px;
+    padding-right: 150px
+
+}
+.locwrapone{
+    border: 1px solid blue;
+    display: flex;
+    height: 150px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    /*text-align: center;*/
+    /*justify-content: space-between*/
+}
+.locwraptwo{
+    border: 1px solid grey;
+    display: flex;
+    height: 150px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.locwrapthree{
+    border: 1px solid blue;
+    display: flex;
+    height: 150px;
+    border-radius: 15px;
+    
+}
+#to{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 35px;
+
+}
+#yo{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 35px;
+    width: 67px
+}
+#ma{
+    height: 30px;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: 95px;
+}
+#ta{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 35px;
+
+}
+#td{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 35px;
+    width: 67px
+}
+#tf{
+    height: 30px;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: 95px;
+}
+#tg{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 35px;
+
+}
+#th{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 35px;
+    width: 67px
+}
+#ti{
+    height: 30px;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: 95px;
+}
+.pack{
+    /*border: 1px solid red;*/
+    background-color: #F9F9F9;
+    width: 100%;
+    height: 700px;
+}
+.pack h2{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px
+}
+button{
+    background-color: grey;
+    border-radius: 15px;
+    height: 50px;
+    width: 150px;
+    border-color: grey;
+    margin: 30px 50px;
+    color: white   
+}
+#butt{
+    background-color: green;
+    margin-left: 90px
+}
+#on{
+    margin-right: 60px
+}
+.foryou{
+    display: flex;
+    height: 380px;
+    /*border: 1px solid purple;*/
+    justify-content: space-around;
+    /*border-radius: 15px*/
+}
+.foryou-one{
+    border: 1px solid red;
+    width: 350px;
+    background-image: url(assets/worldmap-three.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+.two{
+    /*border: 1px solid red;*/
+    width: 350px;
+    background-image: url(assets/worldmap-four.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+.three{
+    /*border: 1px solid red;*/
+    width: 350px;
+    background-image: url(assets/worldmap-five.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+.indo{
+    background-color: white;
+    width: 330px;
+    height: 125px;
+    margin-top: 255px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px
+}
+.indo-text{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px
+}
+#indo-p{
+    padding-top: 10px;
+    width: 280px
+}
+.indo-loc{
+    display: flex;
+    padding-top: 20px;
+    /*justify-content: space-between*/
+}
+#indo-know{
+    color: black;
+    margin-left: 150px
+}
+.jap{
+    background-color: white;
+    width: 350px;
+    height: 125px;
+    margin-top: 255px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px
+}
+.jap-text{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px
+}
+#jap-p{
+    padding-top: 10px;
+    width: 280px
+}
+.jap-loc{
+    display: flex;
+    padding-top: 20px;
+    /*justify-content: space-between*/
+}
+#jap-know{
+    color: black;
+    margin-left: 175px
+}
+.moun{
+    background-color: white;
+    width: 350px;
+    height: 125px;
+    margin-top: 255px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px
+}
+.moun-text{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px
+}
+#moun-p{
+    padding-top: 10px;
+    width: 280px
+}
+.moun-loc{
+    display: flex;
+    padding-top: 20px;
+    /*justify-content: space-between*/
+}
+#moun-know{
+    color: black;
+    margin-left: 140px
+}
+#dm{
+    margin-top: 45px;
+    background-color: green;
+    width: 190px;
+    margin-left: 700px;
+    font-size: 20px
+}
+.book{
+    height: 600px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid red
+}
+.book h2{
+    margin-top: 30px;
+    text-align: center;
+    /*line-height: 80px*/
+}
+.book >p{
+    margin-top: 10px;
+    text-align: center;
+} 
+    
+.book-wrap{
+    display: flex;
+    border: 1px solid green;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 380px;
+    justify-content:  space-around;
+}
+.book-wrap-one{
+    border: 1px solid yellow;
+    width: 350px;
+    display: grid;
+    height: 380px;
+    /*justify-content: space-between;*/
+    align-content:  space-between
+
+}
+.book-wrap-two{
+    border: 1px solid yellow;
+    width: 350px;
+    background-color: grey;
+    padding-left: 25px;
+    padding-top: 10px;
+    z-index: 80px;
+    position: relative
+}
+.group-seven{
+    display: flex;
+    border: 1px solid darkslategrey;
+    height: 70px;
+}
+.group-seven p{
+    padding: 0px 10px 
+}
+.lorem{
+    margin-top: 10px
+}
+.group-eight{
+    display: flex;
+    border: 1px solid darkslategrey;
+    height: 70px;
+}
+.group-eight p{
+    padding: 0px 10px 
+}
+.lorem{
+    margin-top: 10px
+}
+.group-nine{
+    display: flex;
+    border: 1px solid darkslategrey;
+    height: 70px;
+}
+.group-nine p{
+    padding: 0px 10px 
+}
+.lorem{
+    margin-top: 10px
+}
+.book-wrap-two h3{
+    margin-top: 15px
+}
+.greece{
+    display: flex;
+    margin-top: 12px;
+    border: 1px solid red;
+    width: 150px;
+    justify-content: space-between
+}
+.greece-icon{
+    margin-top: 15px;
+    display: flex;
+    border: 1px solid red;
+    width: 140px;
+    justify-content: space-between
+}
+.greece-icons{
+    margin-top: 20px;
+    display: flex;
+    border: 1px solid red;   
+    justify-content: space-between;
+    width: 320px
+}
+.greece-sub{
+    display: flex;
+    border: 1px solid royalblue;
+    width: 150px;
+    justify-content: space-between;
+}
+.greece-icons p{
+    margin-top: 15px
+}
+.zee{
+    height: 100px;
+    width: 200px;
+    border: 1px solid purple;
+    margin-left: 1200px;
+    margin-top: -180px;
+    background-color: white;
+    z-index: 40px;
+    position: relative
+}
