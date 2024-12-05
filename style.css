@@ -279,33 +279,28 @@
     /* border: 1px solid blue; */
     display: flex;
     height: 500px;
-    justify-content: space-around;
-    margin-top: 20px
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-right: 5%;
 }
 .loc-itself{
     /* border: 1px solid red; */
-    background-image: url(assets/worldmap-two.png);
-    width: 550px;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
+}
+.loc-itself>img{
     height: 500px;
-    margin-right: 430px
-    
-    
+    width: 550px;
 }
 .loc-des{
     /* border: 1px solid seagreen; */
     height: 500x;
     width: 500px;
-    padding-right: 150px
-
 }
 .locwrapone{
     /* border: 1px solid blue; */
     display: flex;
     height: 150px;
     margin-bottom: 20px;
+    gap: 50px;
     border-radius: 15px;
     box-shadow: 3px 3px 10px 0px #00000014;
     /*text-align: center;*/
@@ -315,6 +310,7 @@
     /* border: 1px solid grey; */
     display: flex;
     height: 150px;
+    gap: 50px;
     margin-bottom: 20px;
     border-radius: 15px;
     box-shadow: 3px 3px 10px 0px #00000014;
@@ -322,6 +318,7 @@
 .locwrapthree{
     /* border: 1px solid blue; */
     display: flex;
+    gap: 45px;
     height: 150px;
     border-radius: 15px;
     box-shadow: 3px 3px 10px 0px #00000014;
@@ -329,56 +326,44 @@
 #to{
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 35px;
-
 }
 #yo{
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 35px;
     width: 67px
 }
 #ma{
     height: 30px;
     margin-bottom: auto;
     margin-top: auto;
-    margin-left: 95px;
 }
 #ta{
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 35px;
-
 }
 #td{
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 35px;
     width: 67px
 }
 #tf{
     height: 30px;
     margin-bottom: auto;
     margin-top: auto;
-    margin-left: 95px;
 }
 #tg{
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 35px;
-
 }
 #th{
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 35px;
     width: 67px
 }
 #ti{
     height: 30px;
     margin-bottom: auto;
     margin-top: auto;
-    margin-left: 95px;
 }
 .pack{
     /*border: 1px solid red;*/
@@ -881,8 +866,111 @@ button{
     margin-top: 45px
 }
 
-@media all and (max-width:600px) {
+@media screen and (max-width:600px) {
    .nav{
     display: none;
    } 
+   .profile{
+    display: none;
+   }
+   .logo{
+    margin-left: 10px;
+   }
+   .header>img{
+    border: 1px solid green;
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    background-color: #Ffffff;
+   }
+   .header{
+    justify-content: space-between;
+   }
+   .usher-content{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   .usher-head{
+    font-size: 21px;
+   }
+   .usher-text{
+    width: 90%;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   .sub-service{
+    height: 750px;
+   }
+   .menu{
+    flex-direction: column;
+    gap: 40px;
+   }
+   .menu-one{
+    width: 260px;
+    padding: 30px 30px;
+    background-color: #F9F9F9;
+    margin-left: auto;
+    margin-right: auto;
+    height: 140px;
+   }
+   .menu-two{
+    width: 260px;
+    padding: 30px 30px;
+    background-color: #Ffffff;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   .menu-three{
+    width: 260px;
+    padding: 30px 30px;
+    background-color: #F9F9F9;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   .map-bg{
+    height: fit-content;
+   }
+   #mu{
+    font-size: 25px;
+    width: 330px;
+   }
+   #me{
+    font-size: 16px;
+    width: 330px;
+   }
+   .card-wrap{
+    display: grid;
+    /* border: 1px solid yellow; */
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+    padding: 10px 10px;
+   }
+   .location{
+    height: 930px;
+    width: 100%;
+   }
+   .loc-wrap{
+    flex-direction: column;
+    padding-right: 0px; 
+   }
+   .loc-itself>img{
+    width: 100%;
+    /* border: 1px solid red; */
+    height: 350px;
+   }
+   .loc-des{
+    width: 100%;
+    padding: 0px 5px;
+   }
+   .locwrapone{
+    gap: 30px;
+   }
+   .locwraptwo{
+    gap: 30px;
+   }
+   .locwrapthree{
+    gap: 25px;
+   }
 }
