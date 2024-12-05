@@ -68,6 +68,9 @@
     margin-right: auto;
     
 }
+.header>img{
+    display: none;
+}
 .usher-head{
     font-size: 40px;
     text-align: center;
@@ -284,7 +287,8 @@
     padding-right: 5%;
 }
 .loc-itself{
-    /* border: 1px solid red; */
+    height: 500px;
+    width: 550px;git
 }
 .loc-itself>img{
     height: 500px;
